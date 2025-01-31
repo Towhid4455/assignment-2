@@ -9,7 +9,7 @@
   /* navbar related styles */
   .navbar{
     display: flex;
-    width: 100%;
+    width:100%;
     margin-top: 20px;
     margin-left:140px;
     margin-right:140px;
@@ -69,3 +69,74 @@
     margin-left: 186px;
   }
   /* banner related styles */
+  .banner{
+    display: flex;
+    width:100%;
+    margin-left:140px;
+    margin-right:140px;
+    gap:20px;
+  }
+  .ban-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+  .colour-1{
+    color: #FEA301;
+  }
+  .color-2{
+    color: #01ACFD;
+  }
+  .banner-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+  .btn-primary-1{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    background-color: #111111;
+    border-radius: 12px;
+    padding: 10px 60px;
+  }
+  .image{
+    max-width: 100%;
+  }
+  @media screen and (max-width:576px) {
+    .navbar{
+      margin: 0px;
+      border: 1px solid #FEA301;
+      background-image:url(../assets/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 37px;
+      padding: auto;
+     
+
+     
+      
+    }
+    
+    .brand{
+      display:none;
+    }
+    .part-2{
+      display: none;
+    }
+    .btn-primary{
+      display: none;
+    }
+    .part-1{
+      margin-left:0px;
+    }
+   
+    .banner{
+        flex-direction:column-reverse;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .image{
+        width: 100%;   
+    }
+   
+    
+  }
