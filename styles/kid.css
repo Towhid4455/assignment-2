@@ -9,7 +9,7 @@
   /* navbar related styles */
   .navbar{
     display: flex;
-    width:100%;
+    width:1160px;
     margin-top: 20px;
     margin-left:140px;
     margin-right:140px;
@@ -71,10 +71,10 @@
   /* banner related styles */
   .banner{
     display: flex;
-    width:100%;
+    width:1160px;
     margin-left:140px;
     margin-right:140px;
-    gap:20px;
+    gap:50px;
   }
   .ban-title{
     font-weight: 700;
@@ -97,23 +97,291 @@
     background-color: #111111;
     border-radius: 12px;
     padding: 10px 60px;
+    border: none;
   }
   .image{
     max-width: 100%;
   }
+  /* main section related styles */
+  main{
+    background-image: url(../assets/bg.png);
+  }
+  .standard{
+    width:1160px;
+    margin-left:140px;
+    margin-right:140px;
+    
+  }
+  .stan-title{
+   font-weight: 700;
+   font-size: 3rem;
+   text-align: center;
+    
+ 
+  }
+  .card{
+    display: flex;
+    gap: 28px;
+    width: 1160px;
+  }
+  .card-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .card-description{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #808080;
+  }
+  .card-1,.card-2,.card-3{
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+    padding: 50px 40px;
+    border-radius: 19px;
+    text-align: center;
+    gap: 30px;
+  }
+  .card-1{
+    box-shadow:  0px 30px 30px 20px rgba(222, 245, 255, 1)inset;
+  }
+  .card-2{
+    box-shadow:  0px 30px 30px 20px rgba(255, 244, 220, 1)inset;
+  }
+  .card-3{
+    box-shadow: 0px 30px 30px 20px rgba(242, 232, 255, 1)inset ;
+  }
+
+  
+  .anchor-5{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #64C8FF;
+    text-decoration: none;
+  }
+  .anchor-6{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #F0AA00;
+    text-decoration: none;
+
+  }
+  .anchor-7{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #8700FF;
+    text-decoration: none;
+
+  }
+  .stan-img{
+    margin-top: 20px;
+   margin-left: 524px;
+  }
+  .stories{
+    width:1160px;
+    margin-left:140px;
+    margin-right:140px;
+    
+    
+
+  }
+  .stories-end{
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+    
+   
+  }
+  
+  .card-part-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  
+  .btn-primary-2{
+    font-weight: 500;
+    font-size: 1rem ;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 20px;
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 48px;
+    border: none;
+  }
+  
+  .stories-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+ 
+  }
+  .stories-description{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(102, 102, 102, 1);
+    margin-left: 40px;
+
+  }
+  .btn-stories{
+    margin-top: -25px;
+    margin-left: 20px;
+    
+  
+  }
+  .hello{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(149, 178, 38, 1);
+    padding: 10px 20px;
+    border-radius: 48px;
+    margin-top: -50px;
+    margin-left: 40px;
+   
+  }
+  .hello-1{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(93, 88, 240, 1);
+    padding: 10px 20px;
+    border-radius: 48px;
+    margin-top: -50px;
+    margin-left: 40px;
+
+  }
+  .hello-ti{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .touch{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: #111111;
+    padding: 10px 61px;
+    border-radius: 12px;
+    margin-left: 450px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    
+    
+   
+  }
+  .border{
+    border-radius: 15px 15px 0px 0px;
+    
+  }
+  .card-part-1{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 6px 6px 6px 0px whitesmoke;
+    border-radius: 0px 0px 15px 15px ;
+
+  }
+
+  .card-4{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 6px 6px 6px 0px whitesmoke;
+    border-radius: 0px 0px 15px 15px  ;
+   
+
+  }
+  .card-5{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 6px 6px 6px 0px whitesmoke;
+    border-radius: 0px 0px 15px 15px;
+
+  }
+  .card-6{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 6px 6px 6px 0px whitesmoke;
+    border-radius: 0px 0px 15px 15px  ;
+
+  }
+  .card-7{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 6px 6px 6px 0px whitesmoke;
+    border-radius: 0px 0px 15px 15px  ;
+
+
+  }
+  /* footer style */
+  footer{
+    background-color: rgba(1, 172, 253, 1);
+    
+
+  }
+  .footer{
+    display: flex;
+    width:1160px;
+    padding: 100px 100px 100px 100px;   
+    background-color: rgba(1, 172, 253, 1);
+  }
+  .flex{
+    display: flex;
+  }
+  .foot-1{
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+  }
+  .foot-2{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+
+  }
+ a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+  
+  }
+  .about{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+  }
+  .school{
+    margin-bottom: 32px;
+  }
+  .column-2{
+    margin-top: 50px;
+    margin-left: 150px;  
+  }
+  .column-3{
+    margin-left: 140px;
+  }
+  
+ .keep{
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 1);
+ }
+
+  
   @media screen and (max-width:576px) {
     .navbar{
-      margin: 0px;
+      width:410px;
+      margin:0px;
       border: 1px solid #FEA301;
       background-image:url(../assets/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png);
       background-repeat: no-repeat;
       background-position: right;
       background-size: 37px;
-      padding: auto;
-     
-
-     
-      
+      padding: auto;  
+    }
+    .btn-primary{
+      border: none;
     }
     
     .brand{
@@ -133,10 +401,67 @@
         flex-direction:column-reverse;
         margin: 0 auto;
         text-align: center;
+        width: 410px;
     }
     .image{
-        width: 100%;   
+        width: 410px;   
     }
-   
     
+   
+    .stan-title{
+      margin: 0px;
+       
+    }
+    .card{
+      flex-direction: column;
+    }
+    .card-1{
+      padding:0px;
+      width: 350px;
+      
+     
+    }
+    .card-2{
+      padding:0px;
+      width: 350px;
+     
+    }
+    .card-3{
+      padding: 0px;
+      width: 350px;
+    }
+    .card-4{
+      padding: 0px;
+    }
+    .card-5{
+      padding:0px;
+    }
+    .card-6{
+      padding: 0px;
+    }
+    .card-7{
+      padding: 0px;
+    }
+      
+    .card-part-1{
+      display: none;
+    }
+    .card-part-2{
+      grid-template-columns: repeat(2,1fr);
+      
+    }
+    .stan-img{
+      display: none;
+    }
+    .footer{
+      flex-direction: column;
+      margin: 0px;
+    }
+    .colour-1,.column-2,.column-3{
+      margin: 0px;
+      padding: 0px;
+    }
   }
+    
+  
+ 
