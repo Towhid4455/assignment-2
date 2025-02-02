@@ -105,11 +105,15 @@
   /* main section related styles */
   main{
     background-image: url(../assets/bg.png);
+    width: 100%;
+
   }
+  
   .standard{
     width:1160px;
     margin-left:140px;
     margin-right:140px;
+  
     
   }
   .stan-title{
@@ -176,9 +180,10 @@
    margin-left: 524px;
   }
   .stories{
-    width:1160px;
-    margin-left:140px;
-    margin-right:140px;
+    width:100%;
+    /* margin-left:140px;
+    margin-right:140px; */
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     
     
 
@@ -186,6 +191,9 @@
   .stories-end{
     display: flex;
     margin-top: 80px;
+    margin-left:140px;
+    margin-right:100px;
+  
     gap: 20px;
     
    
@@ -205,6 +213,13 @@
     background-color: rgba(60, 216, 232, 1);
     border-radius: 48px;
     border: none;
+  }
+  .stories-part{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-top: 60px;
+    margin-left: 600px;
+  
   }
   
   .stories-title{
@@ -263,7 +278,7 @@
     background-color: #111111;
     padding: 10px 61px;
     border-radius: 12px;
-    margin-left: 450px;
+    margin-left: 600px;
     margin-top: 80px;
     margin-bottom: 70px;
     
@@ -272,6 +287,7 @@
   }
   .border{
     border-radius: 15px 15px 0px 0px;
+    width: 100%;
     
   }
   .card-part-1{
@@ -321,8 +337,9 @@
   .footer{
     display: flex;
     width:1160px;
-    padding: 100px 100px 100px 100px;   
+    /* padding: 100px 100px 100px 100px;    */
     background-color: rgba(1, 172, 253, 1);
+    margin:0px 228px 174px 140px;
   }
   .flex{
     display: flex;
@@ -378,11 +395,37 @@
       background-repeat: no-repeat;
       background-position: right;
       background-size: 37px;
-      padding: auto;  
+      padding: 0;  
+    }
+    .standard{
+      width:100%;
+      margin-left:0px;
+      margin-right:0px;
+   
+      
+    }
+    .stories-end{
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+    }
+    .stories{
+      width:100%;
+      margin-left:0px;
+      margin-right:0px;
+      padding-bottom: 10px;
     }
     .btn-primary{
       border: none;
     }
+     .touch{
+      margin-left: 0px;
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 20px;
+      margin-bottom: 0px;
+     }
     
     .brand{
       display:none;
@@ -394,41 +437,46 @@
       display: none;
     }
     .part-1{
-      margin-left:0px;
+      margin:0px;
     }
    
     .banner{
         flex-direction:column-reverse;
-        margin: 0 auto;
+        margin: 0 ;
         text-align: center;
         width: 410px;
+     
     }
     .image{
         width: 410px;   
     }
     
-   
-    .stan-title{
-      margin: 0px;
-       
+    .stan-title{ 
+      font-size: 2rem; 
     }
     .card{
       flex-direction: column;
+      width: 100%;
     }
     .card-1{
       padding:0px;
-      width: 350px;
+      width:100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      gap: 0px;
       
      
     }
     .card-2{
       padding:0px;
-      width: 350px;
+      width: 100%;
+      gap: 0px;
      
     }
     .card-3{
       padding: 0px;
-      width: 350px;
+      width: 100%;
+      gap: 0px;
     }
     .card-4{
       padding: 0px;
@@ -455,7 +503,16 @@
     }
     .footer{
       flex-direction: column;
-      margin: 0px;
+      margin: 0px 0px 0px 10px;
+      width: 100%;
+      
+    }
+    .stories-part{
+      margin-left: 80px;
+      margin-bottom: 20px;
+    }
+    .flex img{
+      margin-left: 0px;
     }
     .colour-1,.column-2,.column-3{
       margin: 0px;
